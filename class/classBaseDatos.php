@@ -7,7 +7,7 @@ class BaseDatosPlataforma
   function BaseDatos()
   {}
 
-  function conecta()
+  function conecta()//
   {
     $this->conexion = mysqli_connect("localhost","encuestador","305279","encuestas");
   }
